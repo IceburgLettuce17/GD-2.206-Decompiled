@@ -473,7 +473,7 @@ void MusicDownloadManager::showTOS(FLAlertLayerProtocol* delegate)
          &text,
          "Cancel",
          "I Accept",
-         400.0,f
+         400.0f,
          true,
          280.0f
          1.0f);
@@ -505,5 +505,6 @@ void MusicDownloadManager::songStateChanged()
 
 
 /* Unknown Return: MusicDownloadManager::tryUpdateSFXLibrary(){}; */
+
 
 
